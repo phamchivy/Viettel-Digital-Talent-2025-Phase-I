@@ -7,7 +7,7 @@ TARGETS = ue gnb amf
 all: $(TARGETS)
 
 ue: UE.c
-	$(CC) $(CFLAGS) -o ue UE.c
+	$(CC) $(CFLAGS) -o ue UE.c -lpthread
 
 gnb: gNodeB.c
 	$(CC) $(CFLAGS) -o gnb gNodeB.c -lpthread
