@@ -1,4 +1,4 @@
-# Makefile for SNF sync
+# Makefile for SNF sync - Completed 
 
 CC = gcc
 CFLAGS = -Wall

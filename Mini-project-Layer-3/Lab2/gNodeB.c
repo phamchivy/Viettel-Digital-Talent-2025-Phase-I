@@ -1,4 +1,4 @@
-// File: gNodeB.c
+// File: gNodeB.c - Completed
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -131,7 +131,7 @@ void* paging_rrc_thread(void* arg) {
             PagingMessage msg;
             if (dequeue_paging(&msg)) {
                 unsigned char buffer[3];
-                buffer[0] = 0x64; // message_id = 2: Paging RRC
+                buffer[0] = 0x64; // message_id = 100: Paging RRC
                 buffer[1] = msg.paging_msg[1]; // ue_id
                 buffer[2] = msg.paging_msg[3]; // cn_domain
 

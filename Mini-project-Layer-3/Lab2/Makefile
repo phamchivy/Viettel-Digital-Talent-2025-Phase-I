@@ -1,4 +1,4 @@
-# Makefile for Paging Simulation
+# Makefile for Paging Simulation Completed
 
 CC = gcc
 CFLAGS = -Wall
